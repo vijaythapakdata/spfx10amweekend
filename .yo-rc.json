@@ -1,0 +1,19 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "useGulp": false,
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.20.0",
+    "sdksVersions": {},
+    "version": "1.22.2",
+    "libraryName": "spfxtraining",
+    "libraryId": "d1f04faf-02c2-417c-955e-3f1ab20c9f69",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "Spfxtraining",
+    "solutionShortDescription": "Spfxtraining description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
