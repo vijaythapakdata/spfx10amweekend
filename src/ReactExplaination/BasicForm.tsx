@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { ChoiceGroup, ComboBox, DatePicker, Dropdown, PrimaryButton, Slider, TextField } from '@fluentui/react';
+import { ListNames } from '../Enum/ListNames';
 const BasicForm:React.FC<{}>=()=>{
     return(
         <>
@@ -105,6 +106,7 @@ text='Save'
 iconProps={{iconName:"save"}}
 onClick={()=>alert("Submit form")}
 />
+{ListNames.list2}
         </form>
         </>
     )
