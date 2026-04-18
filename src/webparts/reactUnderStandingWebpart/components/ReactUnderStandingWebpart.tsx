@@ -5,6 +5,9 @@ import { escape } from '@microsoft/sp-lodash-subset';
 import BasicForm from '../../../ReactExplaination/BasicForm';
 import UseStateHook from '../../../ReactHooks/UseStateHook';
 import { ListNames } from '../../../Enum/ListNames';
+import UseEffectHook from '../../../ReactHooks/UseEffectHook';
+import UseCallbackHook from '../../../ReactHooks/UseCallbackHooks';
+import UseMemoHook from '../../../ReactHooks/UseMemoHook';
 // Functional component
 
 const  ReactUnderStandingWebpart:React.FC<IReactUnderStandingWebpartProps>=(props)=>{
@@ -189,6 +192,9 @@ let name=["Aman","Karan","Arun","Sohail"]
     })}
     {ListNames.list1}
     <UseStateHook/>
+    <UseEffectHook/>
+    <UseCallbackHook/>
+    <UseMemoHook/>
     </>
     
   )
