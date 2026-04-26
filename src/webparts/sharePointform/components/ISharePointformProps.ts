@@ -2,10 +2,10 @@ import { WebPartContext } from "@microsoft/sp-webpart-base";
 
 export interface ISharePointformProps {
   description: string;
-  isDarkTheme: boolean;
-  environmentMessage: string;
-  hasTeamsContext: boolean;
-  userDisplayName: string;
   context:WebPartContext;
   siteurl:string;
+  departmentoptions:any;
+  genderoptions:any;
+  skillsoptions:any;
+  citiesoptions:any;
 }

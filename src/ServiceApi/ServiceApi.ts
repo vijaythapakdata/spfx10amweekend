@@ -14,7 +14,11 @@ public async addItems(formdata:ISharePointFormColumns):Promise<any>{
     try{
 const list=this.web.lists.getByTitle(ListNames.SharePointList);
 const items=await list.items.add({
-    Title:formdata.Name
+    Title:formdata.Name,
+    Department:formdata.Department,
+    CityId:formdata.City,
+    Gender:formdata.Gender,
+    Skills:{results:formdata.Skills}
 });
 return items;
     }
