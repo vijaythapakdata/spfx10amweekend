@@ -5,3 +5,12 @@ export interface ISharePointFormColumns{
     Gender:string;
     Skills:any;
 }
+
+export interface IPaginatedColumns{
+    key:number;
+    Title:string;
+    Age:number;
+    Admin:number;
+    City:string;
+    EmailAddress:string;
+}

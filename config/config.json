@@ -25,6 +25,14 @@
           "manifest": "./src/webparts/formValidation/FormValidationWebPart.manifest.json"
         }
       ]
+    },
+    "paginated-table-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/paginatedTable/PaginatedTableWebPart.js",
+          "manifest": "./src/webparts/paginatedTable/PaginatedTableWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -32,6 +40,7 @@
     "ReactUnderStandingWebpartWebPartStrings": "lib/webparts/reactUnderStandingWebpart/loc/{locale}.js",
     "SharePointformWebPartStrings": "lib/webparts/sharePointform/loc/{locale}.js",
     "FormValidationWebPartStrings": "lib/webparts/formValidation/loc/{locale}.js",
-    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "PaginatedTableWebPartStrings": "lib/webparts/paginatedTable/loc/{locale}.js"
   }
 }
