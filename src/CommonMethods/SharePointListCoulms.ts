@@ -14,3 +14,10 @@ export interface IPaginatedColumns{
     City:string;
     EmailAddress:string;
 }
+export interface IUsersInfo{
+    id:string;
+    displayName:string;
+    mail:string;
+    jobTitle?:string;
+    department?:string;
+}

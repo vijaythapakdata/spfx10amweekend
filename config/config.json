@@ -33,6 +33,30 @@
           "manifest": "./src/webparts/paginatedTable/PaginatedTableWebPart.manifest.json"
         }
       ]
+    },
+    "get-all-users-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/getAllUsers/GetAllUsersWebPart.js",
+          "manifest": "./src/webparts/getAllUsers/GetAllUsersWebPart.manifest.json"
+        }
+      ]
+    },
+    "graph-api-key-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/graphApiKey/GraphApiKeyWebPart.js",
+          "manifest": "./src/webparts/graphApiKey/GraphApiKeyWebPart.manifest.json"
+        }
+      ]
+    },
+    "profile-card-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/profileCard/ProfileCardWebPart.js",
+          "manifest": "./src/webparts/profileCard/ProfileCardWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -41,6 +65,9 @@
     "SharePointformWebPartStrings": "lib/webparts/sharePointform/loc/{locale}.js",
     "FormValidationWebPartStrings": "lib/webparts/formValidation/loc/{locale}.js",
     "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
-    "PaginatedTableWebPartStrings": "lib/webparts/paginatedTable/loc/{locale}.js"
+    "PaginatedTableWebPartStrings": "lib/webparts/paginatedTable/loc/{locale}.js",
+    "GetAllUsersWebPartStrings": "lib/webparts/getAllUsers/loc/{locale}.js",
+    "GraphApiKeyWebPartStrings": "lib/webparts/graphApiKey/loc/{locale}.js",
+    "ProfileCardWebPartStrings": "lib/webparts/profileCard/loc/{locale}.js"
   }
 }
