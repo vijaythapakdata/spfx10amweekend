@@ -57,6 +57,14 @@
           "manifest": "./src/webparts/profileCard/ProfileCardWebPart.manifest.json"
         }
       ]
+    },
+    "sp-httpclient-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spHttpclient/SpHttpclientWebPart.js",
+          "manifest": "./src/webparts/spHttpclient/SpHttpclientWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -68,6 +76,7 @@
     "PaginatedTableWebPartStrings": "lib/webparts/paginatedTable/loc/{locale}.js",
     "GetAllUsersWebPartStrings": "lib/webparts/getAllUsers/loc/{locale}.js",
     "GraphApiKeyWebPartStrings": "lib/webparts/graphApiKey/loc/{locale}.js",
-    "ProfileCardWebPartStrings": "lib/webparts/profileCard/loc/{locale}.js"
+    "ProfileCardWebPartStrings": "lib/webparts/profileCard/loc/{locale}.js",
+    "SpHttpclientWebPartStrings": "lib/webparts/spHttpclient/loc/{locale}.js"
   }
 }
